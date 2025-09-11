@@ -6,13 +6,12 @@
 
 window#waybar {
     background-color: #2e3440;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
     color: #ffffff;
     transition-property: background-color;
 }
 
 window#waybar.hidden {
-    opacity: 0.2;
+    opacity: 1;
 }
 
 /*
@@ -54,7 +53,7 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
-    background-color: #4c566a;
+    background-color: #2e3440;
     color: #88c0d0;
 }
 #workspaces button.active {
