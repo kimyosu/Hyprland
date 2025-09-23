@@ -1,7 +1,9 @@
 #!/bin/bash
 
+local="~/.config/" 
+
 echo "Instalando os programas..."
-local="~/.config/"
-sudo pacman -S imagemagick waybar neovim wofi fastfetch fish starship
+sudo pacman -S hyprpaper imagemagick waybar neovim wofi fastfetch fish starship
+
 echo "Movendo arquivos para $local"
 cp -r config/* ~/.config
